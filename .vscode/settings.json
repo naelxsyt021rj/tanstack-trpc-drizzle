@@ -1,0 +1,35 @@
+{
+	"[css][tailwindcss]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript][javascriptreact][typescript][typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json,jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit",
+		"source.removeUnusedImports": "always"
+	},
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"files.readonlyInclude": {
+		"**/routeTree.gen.ts": true
+	},
+	"files.watcherExclude": {
+		"**/routeTree.gen.ts": true
+	},
+	"search.exclude": {
+		"**/routeTree.gen.ts": true
+	},
+	"typescript.preferences.autoImportSpecifierExcludeRegexes": ["^(node:)?os$"],
+	"typescript.preferences.importModuleSpecifier": "non-relative"
+}

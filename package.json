@@ -1,0 +1,53 @@
+{
+	"name": "@depsimon/tanstack-basic",
+	"private": true,
+	"sideEffects": false,
+	"type": "module",
+	"scripts": {
+		"dev": "bun --bun vinxi dev",
+		"build": "bun --bun vinxi build",
+		"start": "bun --bun vinxi start",
+		"db:generate": "drizzle-kit generate",
+		"db:studio": "drizzle-kit studio",
+		"check": "biome check ./ --fix",
+		"format": "biome format ./ --fix",
+		"lint": "biome lint ./ --fix",
+		"postinstall": "lefthook install"
+	},
+	"dependencies": {
+		"@paralleldrive/cuid2": "^2.2.2",
+		"@tailwindcss/vite": "^4.1.5",
+		"@tanstack/react-query": "^5.75.1",
+		"@tanstack/react-query-devtools": "^5.75.1",
+		"@tanstack/react-router": "^1.119.0",
+		"@tanstack/react-router-devtools": "^1.119.1",
+		"@tanstack/react-router-with-query": "^1.119.0",
+		"@tanstack/react-start": "^1.119.0",
+		"@trpc/client": "^11.1.2",
+		"@trpc/server": "^11.1.2",
+		"@trpc/tanstack-react-query": "^11.1.2",
+		"arktype": "^2.1.20",
+		"better-auth": "^1.2.7",
+		"drizzle-orm": "^0.43.1",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"sonner": "^2.0.3",
+		"superjson": "^2.2.2",
+		"tailwindcss": "^4.1.5",
+		"vinxi": "0.5.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0-beta.2",
+		"@types/bun": "^1.2.11",
+		"@types/node": "^22.15.3",
+		"@types/react": "^19.1.2",
+		"@types/react-dom": "^19.1.3",
+		"drizzle-kit": "^0.31.1",
+		"lefthook": "^1.11.12",
+		"typescript": "^5.8.3",
+		"vite-tsconfig-paths": "^5.1.4"
+	},
+	"engines": {
+		"bun": "1.2.11"
+	}
+}
